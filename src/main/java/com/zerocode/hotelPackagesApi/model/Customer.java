@@ -18,8 +18,6 @@ public class Customer {
     private String email;
     private String profilePhotoUrl;
 
-//    private String firstName;
-
     @OneToOne
     private LoyaltyPoints loyaltyPoints;
 
