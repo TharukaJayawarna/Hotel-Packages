@@ -19,6 +19,7 @@ public class Customer {
     private String profilePhotoUrl;
 
 //    private String firstName;
+//    private String firstName;
 
     @OneToOne
     private LoyaltyPoints loyaltyPoints;
