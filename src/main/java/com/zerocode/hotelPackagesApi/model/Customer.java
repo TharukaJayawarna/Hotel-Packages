@@ -17,7 +17,6 @@ public class Customer {
     private String password;
     private String email;
     private String profilePhotoUrl;
-    
 
     @OneToOne
     private LoyaltyPoints loyaltyPoints;
